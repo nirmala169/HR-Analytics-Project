@@ -9,6 +9,7 @@ This project analyzes employee data to identify factors affecting employee attri
 - NumPy
 - Matplotlib
 - Seaborn
+- My SQL Workbench
 - Power BI
 
 ## Key Objectives
