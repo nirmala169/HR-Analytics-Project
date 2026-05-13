@@ -36,6 +36,7 @@ WHERE Attrition = 'Yes'
 GROUP BY Department
 ORDER BY Attrition_Count DESC;
 
+#Insight
 #Some departments experience significantly higher attrition levels, indicating possible workload or employee satisfaction concerns.
 
 #Gender Distribution#
@@ -44,6 +45,7 @@ SELECT Gender,
 FROM hr_analytics
 GROUP BY Gender;
 
+#Insight
 #The workforce distribution across genders helps understand organizational diversity trends.
 
 #Overtime vs Attrition#
@@ -53,6 +55,7 @@ SELECT OverTime,
 FROM hr_analytics
 GROUP BY OverTime, Attrition;
 
+#Insight
 #Employees working overtime tend to experience higher attrition compared to employees with no overtime.
 
 #Average Age by Department#
@@ -67,6 +70,7 @@ FROM hr_analytics
 GROUP BY JobRole
 ORDER BY Avg_Salary DESC;
 
+#Insight
 #Management and specialized technical roles generally receive higher compensation.
 
 #Employees by Education Field#
@@ -83,6 +87,7 @@ FROM hr_analytics
 GROUP BY JobSatisfaction
 ORDER BY JobSatisfaction;
 
+#Insight
 #Lower job satisfaction levels may contribute to increased employee turnover.
 
 #Average Years at Company#
@@ -95,6 +100,7 @@ SELECT BusinessTravel,
 FROM hr_analytics
 GROUP BY BusinessTravel;
 
+#Insight
 #Employees who travel frequently for work may experience higher stress and turnover risk.
 
 #Monthly Income by Attrition#
@@ -103,6 +109,7 @@ SELECT Attrition,
 FROM hr_analytics
 GROUP BY Attrition;
 
+#Insight
 #Employees who left the organization tend to have lower average income compared to retained employees.
 
 #Work-Life Balance Analysis#
