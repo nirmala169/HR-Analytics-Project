@@ -30,9 +30,10 @@ Data Cleaning → Exploratory Data Analysis → SQL Analysis → Dashboard Devel
 - Certain departments experience higher employee turnover.
 
 ## Files Included
+- `HR_Analytics.csv` → Dataset
+- `HR_Analytics_Cleaned.csv` → Clean dataset
 - `hr_analysis.ipynb` → Python EDA notebook
 - `HR_SQL_Queries.sql` → SQL business queries and insights
-- `HR_Analytics.csv` → Dataset
 - `dashboard.png` → Dashboard (Waiting...)
 - `README.md` → Project documentation
 
