@@ -23,6 +23,14 @@ Data Cleaning → Exploratory Data Analysis → SQL Analysis → Dashboard Devel
 - Overtime Impact
 - Workforce Demographics
 
+## Power BI Dashboard
+Interactive HR Analytics dashboard created in Power BI to analyze:
+- Employee Attrition
+- Salary Trends
+- Workforce Demographics
+- Job Satisfaction
+- Experience Distribution
+
 ## Key Insights
 - Employees working overtime show higher attrition.
 - Lower salary employees are more likely to leave.
@@ -34,7 +42,9 @@ Data Cleaning → Exploratory Data Analysis → SQL Analysis → Dashboard Devel
 - `HR_Analytics_Cleaned.csv` → Clean dataset
 - `hr_analysis.ipynb` → Python EDA notebook
 - `HR_SQL_Queries.sql` → SQL business queries and insights
-- `dashboard.png` → Dashboard (Waiting...)
+- `dashboard.png` → Dashboard (<img width="1173" height="674" alt="HR Analytics _1" src="https://github.com/user-attachments/assets/df8551b9-30a3-4128-a280-72a90af9a253" />
+) , (<img width="1169" height="668" alt="HR Analytics_2" src="https://github.com/user-attachments/assets/52119962-16f3-4c22-95a2-b05f9ce721e6" />)
+[HR - Analytics Dashboard 2.pdf](https://github.com/user-attachments/files/27898841/HR.-.Analytics.Dashboard.2.pdf)
 - `README.md` → Project documentation
 
 ## Conclusion
